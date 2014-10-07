@@ -9,7 +9,7 @@
 <!-- Meta Tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Brushed | Responsive One Page Template</title>   
+<title>CTO MIK</title>
 
 <meta name="description" content="Insert Your Site Description" /> 
 
@@ -110,7 +110,6 @@
                 <li class="current"><a href="#home-slider">В начало</a></li>
                 <li><a href="#work">Заказы</a></li>
                 <li><a href="#about">Наши услуги</a></li>
-                <li><a href="#order">Сделать заказ</a></li>
                 <li><a href="#contact">Контакты</a></li>
                 <!--<li><a href="shortcodes.html" class="external">Shortcodes</a></li>-->
             </ul>
@@ -158,11 +157,10 @@
             	<!-- Filter -->
                 <nav id="options" class="work-nav">
                     <ul id="filters" class="option-set" data-option-key="filter">
-                    	<li class="type-work">Детально</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">Все заказы</a></li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Ремонт ходовой</a></li>
                         <!--<li><a href="#filter" data-option-value=".design">Design</a></li>-->
-                        <li><a href="#filter" data-option-value=".photography">Чистящие средства</a></li>
-                        <li><a href="#filter" data-option-value=".video">Видео</a></li>
+                        <li><a href="#filter" data-option-value=".photography">Замена масла</a></li>
+                        <li><a href="#filter" data-option-value=".video">Заправка кондиционера</a></li>
                     </ul>
                 </nav>
                 <!-- End Filter -->
@@ -302,11 +300,6 @@
                     <h2 class="title">Наши Услуги</h2>
                     <h3 class="title-description">TO-DO: Описание<a href="#"></a></h3>
                 </div>
-
-                <div class="title-page">
-                    <h2 class="title">Как это работает</h2>
-                    <h3 class="title-description">TO-DO: Описание<a href="#"></a></h3>
-                </div>
             </div>
         </div>
         <!-- End Title Page -->
@@ -319,82 +312,6 @@
 </div>
 <!-- End About Section -->
 
-<!-- Order Section -->
-
-
-<div id="order" class="page">
-    <!-- Title Page -->
-    <div class="row">
-        <div class="span12">
-            <div class="title-page">
-                <h2 class="title">Сделать Заказ</h2>
-                <h3 class="title-description"><a href="#"></a></h3>
-
-                <div class="content3">
-
-                <div class="container3">
-
-                <div class="animate_box">
-
-                <!-- Login Button -->
-	                <div class="l_title2">
-		                Введите номер телефона по которому Вам придет СМС с кодом
-	                </div>
-                    <br/>
-	                <!-- <form class="form_log" style="visibility: hidden;"> -->
-                    <form class="form_log">
-	                    
-                    <!--<div class="plus">+</div>-->
-
-		                <input type="text" id="clientpb_phone" class="tel_log" value="+380" maxlength="15" height="50px" style="font-size:20px"  style="color: Maroon" />
-                          <script src="include/js/jquery-2.1.1.min.js" type="text/javascript"></script>
-                          <script src="include/js/jquery.maskedinput.js" type="text/javascript"></script>
-                          <script type="text/javascript">
-                              $('.tel_log').mask('+38(099)999-99-99');
-                              document.getElementById("clientpb_phone").value = "+380";
-                          </script>
-
-		                <div class="box_otp" style="display: none;">
-			                <div class="otp_txt">Введите пароль из SMS</div>
-			                <input class="otp" type="text" maxlength="2" placeholder="XX">
-			                <input class="otp" type="text" maxlength="2" placeholder="XX">
-			                <input class="otp" type="text" maxlength="2" placeholder="XX">
-			                <input class="otp" type="text" maxlength="2" placeholder="XX">
-			
-			                <!-- <div class="otp_asc" onclick="otp_info_show()">Не приходит SMS с паролем?</div> -->
-			                <div class="box_otp_info">
-					                В течение 3-х минут Вы получите SMS с паролем.
-					                <br/>					
-					                <div el="CallWait" hidden style="padding-top:5px;">
-						                    Ожидайте, идет вызов
-						                    +<span el="CallWaitPhone"></span>
-					                </div>
-				                </div>
-
-
-		                </div>
-                        <br/>
-		                <input type="button" class="login" value='  Вход/Регистрация  '/>
-	                </form>
-                </div>
-
-                <!-- End Login Button -->
-
-            </div>
-        </div>
-    </div>
-    <!-- End Title Page -->
-        
-            <!-- Portfolio Projects -->
-        
-            <!-- End Portfolio Projects -->
-        </div>
-    </div>
-</div>
-
-<!-- End Order Section -->
-
-
 <!-- Contact Section -->
 <div id="contact" class="page">
 <div class="container">
@@ -402,8 +319,8 @@
     <div class="row">
         <div class="span12">
             <div class="title-page">
-                <h2 class="title">Обратная связь</h2>
-                <h3 class="title-description">Будем рады услышать Ваши предложение и пожелания</h3>
+                <h2 class="title">Контакты</h2>
+                <h3 class="title-description">Desctiption</h3>
             </div>
         </div>
     </div>
@@ -411,39 +328,14 @@
     
     <!-- Contact Form -->
     <div class="row">
-    	<div class="span9">
-        
-        	<form id="contact-form" class="contact-form" action="#">
-            	<p class="contact-name">
-            		<input id="contact_name" type="text" placeholder="Имя" value="" name="name" />
-                </p>
-                <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Email" value="" name="email" />
-                </p>
-                <p class="contact-message">
-                	<textarea id="contact_message" placeholder="Ваше сообщение" name="message" rows="15" cols="40"></textarea>
-                </p>
-                <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
-                </p>
-                
-                <div id="response">
-                
-                </div>
-            </form>
-         
-        </div>
-        
         <div class="span3">
         	<div class="contact-details">
-        		<h3>Контакты</h3>
                 <ul>
-                    <li><a href="#">info@auto-wash.com.ua</a></li>
-                    <li>(916) 375-2525</li>
+                    <li><a href="#">info@mik.kiev.ua</a></li>
+                    <li>(mob)</li>
                     <li>
-                        Киевская студия AUTO-WASH
+                        CTO MIK
                         <br>
-                        90210 Физкультуры 28
                         <br>
                         Киев
                     </li>
@@ -499,7 +391,7 @@
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+	<p class="credits">&copy;2013 CTO MIK</p>
 </footer>
 <!-- End Footer -->
 
