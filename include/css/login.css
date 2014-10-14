@@ -1,0 +1,94 @@
+.container2 {
+	min-height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.animate_box	{ 
+	position: relative;
+	width: 1024px;
+	 /*height: 315px; */
+	margin: 0 auto;
+	padding-bottom: 45px;
+}
+
+.content2 {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 140px;
+	overflow: hidden;
+}
+
+
+.tel_log {
+	display: inline-block;
+
+	width: 210px;	
+	height: 100px;
+	padding: 0 5px 0 25px;	
+        font-size: 24px;	
+	border: 1px solid #7ab72b;
+	margin-top: 35px;
+	color: #4f4f4f;
+	font-family: 'monospace';
+
+}
+
+.tel_log:focus {
+	box-shadow: 0 0 1px 1px #7ab72b;
+	border-color: #7ab72b;
+	outline: none;
+}
+
+
+
+
+.login{
+	display: inline-block;
+	width: 265px;
+	height: 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #7ab72b;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	border: 1px solid #7ab72b;
+	margin-top: 18px;
+	cursor: pointer;
+	outline: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-icab-border-radius: 3px;
+	-o-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+.login:hover{
+	background: #6ca91c;
+}
+
+.l_title{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39px;
+	color: #4f4f4f;
+	text-transform: uppercase;
+}
+.form_log{
+	margin: 0 auto;
+	width: 350px;
+	text-align: center;
+	position: relative;
+}
+
+.plus{
+	position: absolute;
+	left: 70px;
+	top: 39px;
+	font-size: 24px;
+	color: #4f4f4f;
+	font-family: 'open sans';

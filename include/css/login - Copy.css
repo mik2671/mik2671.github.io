@@ -1,0 +1,126 @@
+
+.tel_log{
+	width: 265px;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 0 5px 0 25px;
+	font-size: 24px;
+	border: 1px solid #7ab72b;
+	margin-top: 35px;
+	color: #4f4f4f;
+	font-family: 'open sans';
+}
+
+.tel_log:focus {
+	box-shadow: 0 0 1px 1px #7ab72b;
+	border-color: #7ab72b;
+	outline: none;
+}
+
+	.tel_log::-webkit-input-placeholder {font-family: 'open sans'; font-weight: 300; line-height: 50px; font-size: 18px; font-style: italic; color: #969191;}
+	.tel_log::-moz-placeholder {font-family: 'open sans'; font-weight: 300; line-height: 50px; font-size: 18px; font-style: italic; color: #969191;}
+	.tel_log:-ms-input-placeholder {font-family: 'open sans'; font-weight: 300; line-height: 50px; font-size: 18px; font-style: italic; color: #969191;}
+
+
+.box_otp{
+	margin-top: 30px;
+}
+
+.box_otp_info{
+	font-size: 12px;
+	padding: 10px 0 0 0;
+}
+
+.box_otp_info span{
+	color: #6ca91c;
+	
+}
+
+.box_otp_info_cell span:hover{
+	color: #548316;
+	cursor: pointer;
+}
+
+.box_otp_info_cell{
+	padding-top: 10px;
+}
+
+
+.box_otp_info_call span{
+	cursor: default;
+}
+
+.otp_txt{
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	padding-bottom: 5px;
+}
+
+.otp{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #7ab72b;
+}
+.otp:focus {
+	box-shadow: 0 0 1px 1px #7ab72b;
+	border-color: #7ab72b;
+	outline: none;
+}
+
+
+.login{
+	display: inline-block;
+	width: 265px;
+	height: 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #7ab72b;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	border: 1px solid #7ab72b;
+	margin-top: 18px;
+	cursor: pointer;
+	outline: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-icab-border-radius: 3px;
+	-o-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+.login:hover{
+	background: #6ca91c;
+}
+.l_title{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39px;
+	color: #4f4f4f;
+	text-transform: uppercase;
+}
+.form_log{
+	margin: 0 auto;
+	width: 350px;
+	text-align: center;
+	position: relative;
+}
+
+.plus{
+	position: absolute;
+	left: 49px;
+	top: 44px;
+	font-size: 24px;
+	color: #4f4f4f;
+	font-family: 'open sans';
+}
